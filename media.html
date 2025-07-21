@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box {
+            background-color: rgb(155, 35, 151);
+            color: white;
+            width: 300px;
+            border-radius: 2px;
+            border: solid white;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            border-radius:15px;
+        }
+
+        
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            .box{
+                background-color: rgb(78, 134, 180);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJZES4bZMT-NvvP0kx3b6HCG1vOrfRzJx2Q&s" width="300px" height="190px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCC38kJHL7PuSL6kfO2J7lybd1KNPq2lUscg&s" width="300px" height="190px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhc29g2NldZET9F5lZfO90PQYyXMO3fOoLOw&s" width="297px" height="170px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt_Sb8SBSEMi6ssvRpVyqN-LrmiWPC_EU_yA&s" width="299px" height="190px">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+        </div>
+    </div>
+</body>
+</html>
