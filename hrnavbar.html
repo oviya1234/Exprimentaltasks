@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+</head>
+<style>
+    
+   header{
+    position: fixed;;
+    left:0;
+    top:0;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    
+   }
+
+
+   nav a{
+        color: rgb(183, 178, 178);
+        text-decoration: none;
+        
+        
+
+    }
+    .logo{
+        font-size:   25px;
+        color:white;
+        text-decoration:none;
+        font-weight: 600;
+    }
+    nav a{
+        font-size:15px;
+        color:white;
+        font-weight: 400;
+        margin-left:35px;
+        transition: .3s;
+    }
+    nav a:hover{
+        color: aqua;
+    }
+</style>
+<body>
+    <header>
+        <a href="#" class="logo"> logo</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Service</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        
+    </header>
+</body>
+</html>
